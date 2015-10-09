@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Spooky Quiz!</title>
+	<link href='https://fonts.googleapis.com/css?family=Creepster|IM+Fell+English' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="background-img">
+			<div class="row">
+				<div class="quiz-body">
+					<div class="heading">
+						<h1>Welcome to the Spooktacular Halloween Quiz!</h1>
+						<h2>Can you get all the answers right and become the Spookboss?</h2>
+					</div>
+					<div class="row">
+						<section class="game">
+							<div class="info col-md-12">
+								<div class="col-md-6"> 
+									<div class="numInfo">
+										<h1 class="motivation">Get going. This is</h1>
+										<h1>Question Number <span id="questNum">1</span></h1>
+									</div>
+								</div>
+								<div class="col-md-6 score">
+									<div class="spookImg"> 
+										<img src="./img/pumpkinBaby.jpg">
+										<div class="scoreText">
+											<h3>No score yet!</h3><h3>You are a</h3><h3 id="title">Spookbaby</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="question col-md-6">
+									<h2>What mask did Michael Meyers wear in the 1978 Halloween movie?</h2>
+									<img src="./img/mike.jpg">
+								</div>
+								<div class="answers col-md-4">
+									
+									<ul>
+										<li><button id="button1">William Shatner</button></li>
+										<li><button id="button2">Steve McQueen</button></li>
+										<li><button id="button3">Burt Reynolds</button></li>
+										<li><button id="button4">Burt Lancaster</button></li>
+										<li><button id="next">Next</button></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
